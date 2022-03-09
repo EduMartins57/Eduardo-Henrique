@@ -1,0 +1,85 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2? family= Bebas+Neue & family= Patua+One & display=swap');
+
+:root{
+    --cor1: #184D06;
+    --cor2: #72D551;
+    --cor3: #41CC11;
+    --cor4: #294D1D;
+    --cor5: #2F990C;
+
+    --font-padrao: Arial, Verdana, Helvetica, sans-serif;
+    --font-destaque: 'Patua One', 'cursive';
+}
+body{
+    background-image: linear-gradient(to right,var(--cor4), var(--cor2),var(--cor3), var(--cor2), var(--cor4));
+    font-family: var(--font-destaque);
+    font-size: 1em;
+    
+}
+main{
+    min-width: 300px;
+    max-width: 1000px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px var(--cor1);
+    padding: 25px;
+    margin: auto;
+}
+h1{
+    text-align: center;
+    border-radius: 10px;
+    background-image: linear-gradient(to right,var(--cor4), var(--cor2), var(--cor4));
+    color: black;
+    
+}
+h2{
+    text-align: justify;
+    border-radius: 5px;
+    background-image: linear-gradient(to right, var(--cor2), transparent);
+    color: black;
+    text-indent: 10px;
+}
+p{
+   text-align: justify;
+   text-indent: 20px;
+} 
+b:hover{
+    color: var(--cor5);
+}
+ul{
+    text-align: left;
+}
+ol{
+    text-align: justify;
+    text-decoration: none;
+}
+.tecnologias{
+    columns: 2;
+}
+.borda{
+    border: 3px solid var(--cor1);
+    border-radius: 10px 0px;
+    margin-bottom: 15px;
+    text-indent: 9px;
+}
+.borda01{
+    border: 3px solid var(--cor1);
+    border-radius: 0px 10px;
+    margin-bottom: 15px;
+}
+a{
+    color: var(--cor3);
+    text-decoration: none; 
+}
+a:hover{
+    color: var(--cor3);
+    text-decoration: underline;
+}
+img{
+    border-radius: 15px;
+    box-shadow: 3px 3px 10px var(--cor1); 
+}
+
+
